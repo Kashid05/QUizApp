@@ -1,0 +1,213 @@
+{
+    "html-css-js": [
+        {
+            "question": "What does HTML stand for?",
+            "options": ["HyperText Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyperlinking Text Markup Language"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the correct HTML element for inserting a line break?",
+            "options": ["<br>", "<lb>", "<break>", "<line>"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which HTML element is used to define an internal style sheet?",
+            "options": ["<style>", "<css>", "<script>", "<link>"],
+            "correctOption": 0
+        },
+        {
+            "question": "How can you make a numbered list in HTML?",
+            "options": ["<ul>", "<ol>", "<list>", "<dl>"],
+            "correctOption": 1
+        },
+        {
+            "question": "What does CSS stand for?",
+            "options": ["Cascading Style Sheets", "Colorful Style Sheets", "Creative Style Sheets", "Computer Style Sheets"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which property is used to change the background color?",
+            "options": ["color", "bgcolor", "background-color", "background"],
+            "correctOption": 2
+        },
+        {
+            "question": "How do you add a background color for all <h1> elements?",
+            "options": ["h1 {background-color:#FFFFFF;}", "all.h1 {background-color:#FFFFFF;}", "h1.all {background-color:#FFFFFF;}", "h1.all {background-color:#FFFFFF;}"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the correct CSS syntax for making all the <p> elements bold?",
+            "options": ["<p style=\"font-size:bold;\">", "p {font-weight:bold;}", "<p style=\"text-size:bold;\">", "p {font-size:bold;}"],
+            "correctOption": 1
+        },
+        {
+            "question": "How do you insert a comment in a CSS file?",
+            "options": ["/* this is a comment */", "// this is a comment", "<!-- this is a comment -->", "' this is a comment"],
+            "correctOption": 0
+        },
+        {
+            "question": "By using which tag to link JavaScript file in HTML file",
+            "options": ["<script>", "<style>", "<div>", "<p>"],
+            "correctOption": 1
+        }
+    ],
+
+    "gk": [
+        {
+            "question": "Who is the current President of the United States?",
+            "options": ["Joe Biden", "Donald Trump", "Barack Obama", "George Bush"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the capital of France?",
+            "options": ["Paris", "London", "Berlin", "Madrid"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+            "correctOption": 0
+        },
+        {
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "options": ["William Shakespeare", "Charles Dickens", "J.K. Rowling", "Jane Austen"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the tallest mountain in the world?",
+            "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the capital city of Japan?",
+            "options": ["Tokyo", "Beijing", "Seoul", "Bangkok"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the hardest natural substance on Earth?",
+            "options": ["Diamond", "Gold", "Iron", "Platinum"],
+            "correctOption": 0
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the smallest country in the world?",
+            "options": ["Vatican City", "Monaco", "San Marino", "Liechtenstein"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+            "correctOption": 0
+        }
+    ],
+
+    "political": [
+        {
+            "question": "Who was the first President of the United States?",
+            "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which political party does Angela Merkel belong to?",
+            "options": ["Christian Democratic Union", "Social Democratic Party", "Green Party", "Free Democratic Party"],
+            "correctOption": 0
+        },
+        {
+            "question": "Who is known as the Father of the Nation in India?",
+            "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Subhash Chandra Bose", "Sardar Patel"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "options": ["Japan", "China", "South Korea", "Thailand"],
+            "correctOption": 0
+        },
+        {
+            "question": "Who was the British Prime Minister during World War II?",
+            "options": ["Winston Churchill", "Neville Chamberlain", "Clement Attlee", "Stanley Baldwin"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which US president is associated with the New Deal?",
+            "options": ["Franklin D. Roosevelt", "Harry S. Truman", "Woodrow Wilson", "Dwight D. Eisenhower"],
+            "correctOption": 0
+        },
+        {
+            "question": "Who is the current Chancellor of Germany?",
+            "options": ["Olaf Scholz", "Angela Merkel", "Frank-Walter Steinmeier", "Annegret Kramp-Karrenbauer"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which political party is symbolized by the donkey in the US?",
+            "options": ["Democratic Party", "Republican Party", "Libertarian Party", "Green Party"],
+            "correctOption": 0
+        },
+        {
+            "question": "Who is the current Prime Minister of the United Kingdom?",
+            "options": ["Boris Johnson", "Rishi Sunak", "Theresa May", "David Cameron"],
+            "correctOption": 1
+        },
+        {
+            "question": "What is the term length for a US senator?",
+            "options": ["2 years", "4 years", "6 years", "8 years"],
+            "correctOption": 2
+        }
+    ],
+
+    "history": [
+        {
+            "question": "In which year was Chatrapati Shivaji Maharaj born?",
+            "options": ["1627", "1630", "1635", "1640"],
+            "correctOption": 1
+        },
+        {
+            "question": "What was the name of Shivaji Maharaj's mother?",
+            "options": ["Jijabai", "Rani Lakshmibai", "Ahilyabai Holkar", "Kasturba Gandhi"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which fort was the first to be captured by Shivaji Maharaj?",
+            "options": ["Torna Fort", "Raigad Fort", "Sinhagad Fort", "Pratapgad Fort"],
+            "correctOption": 0
+        },
+        {
+            "question": "What was the name of Shivaji Maharaj's father?",
+            "options": ["Shahaji Bhosale", "Sambhaji Bhosale", "Balaji Vishwanath", "Baji Rao"],
+            "correctOption": 0
+        },
+        {
+            "question": "In which year did Shivaji Maharaj crown himself as the Chhatrapati?",
+            "options": ["1672", "1674", "1676", "1678"],
+            "correctOption": 1
+        },
+        {
+            "question": "Who was the Prime Minister (Peshwa) of Shivaji Maharaj?",
+            "options": ["Moropant Pingale", "Balaji Vishwanath", "Raghunathrao", "Baji Rao I"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which Mughal emperor did Shivaji Maharaj have conflicts with?",
+            "options": ["Aurangzeb", "Akbar", "Shah Jahan", "Jahangir"],
+            "correctOption": 0
+        },
+        {
+            "question": "What was the name of Shivaji Maharaj's navy commander?",
+            "options": ["Kanhoji Angre", "Tukaram", "Santaji Ghorpade", "Dadaji Konddeo"],
+            "correctOption": 0
+        },
+        {
+            "question": "Which fort is known as the 'Gibraltar of the East' and was Shivaji Maharaj's capital?",
+            "options": ["Raigad Fort", "Torna Fort", "Sinhagad Fort", "Pratapgad Fort"],
+            "correctOption": 0
+        },
+        {
+            "question": "What is the name of the treaty signed between Shivaji Maharaj and the Mughal Empire in 1665?",
+            "options": ["Treaty of Purandar", "Treaty of Surat", "Treaty of Pune", "Treaty of Agra"],
+            "correctOption": 0
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="home-page">
+        <div id="user-details">
+            <img src="https://th.bing.com/th/id/OIP.18wtOhwMRt9mv45PQh3W8gAAAA?rs=1&pid=ImgDetMain" id="logo" alt="">
+            <h2>Hello User!</h2>
+            <h2 style="font-size: 2vh; color:black">Enter your name to continue the quiz</h2>
+            <input type="text" id="name" placeholder="Enter your name">
+            <button id="enter-button">Enter</button>
+            <hr style="margin-top: 5vh;">
+            <h2>Select a category:</h2>
+        </div>
+        <div id="categories">
+            <button class="category" data-category="html-css-js">HTML CSS JavaScript</button>
+            <button class="category" data-category="gk">GK Questions</button>
+            <button class="category" data-category="political">Political Questions</button>
+            <button class="category" data-category="history">History of Chatrapati Shivaji Maharaj</button>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

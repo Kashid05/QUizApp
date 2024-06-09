@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#home-page{
+    margin: auto;
+    height: 65vh;
+    width: 80vh;
+    margin-top: 20vh;
+    box-shadow: -1px 5px 16px -1px gray;
+    border: 1px solid gray;
+}
+
+#user-details {
+    margin-top: 50px;
+}
+#user-details  h2{
+    font-size: 3vh;
+    color: rgb(74, 138, 249);
+}
+
+#user-details #name{
+    font-size: 2vh;
+    width: 40vh;
+    height: 3vh;
+    padding: 10px;
+    margin-left: -10vh;
+    
+}
+#enter-button{
+    height: 4.5vh;
+    width: 10vh;
+    font-size: 2vh;
+    background-color: rgb(76, 114, 252);
+    border: none;
+    color: white;
+    position: absolute;
+    margin-left: 2vh;
+    border-radius: 5px;
+}
+#enter-button:hover{
+   background-color: red;
+   cursor: pointer;
+}
+#logo {
+    width: 150px;
+}
+
+#categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    grid-gap: 2vh;
+    margin-top: -1vh;
+
+}
+
+/* Add this CSS for button click effect */
+.category {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 25vh;
+    border-radius: 5px;
+}
+
+.category:hover {
+    background-color: #f0f0f0;
+}
+
+.category.selected {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.category.selected:hover {
+    background-color: #0056b3;
+}
+
+.category {
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+#quiz-page, #result-page {
+    margin: auto;
+    margin-top: 25vh;
+    font-size: 2.5vh;
+    height: 40vh;
+    width: 70vh;
+    box-shadow: -1px 5px 16px -1px gray;
+    padding: 30px;
+    border: 1px solid gray;
+}
+
+#quiz-content #options .option:hover{
+    background-color: #76aee9; 
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+#question-number{
+    color: lightblue;
+    font-weight: bold;
+    font-size: 2vh;
+    margin-bottom: 20px;
+}
+#question-text{
+    font-weight: 700;
+}
+#options {
+    margin-top: 4vh;
+}
+
+.option {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    font-size: 2vh;
+    width: 30vh;
+    cursor: pointer;
+}
+
+#next-button{
+    margin-top: 120px;
+    margin-left: 650px;
+    
+
+}
+#next-button,#start-again-button, #home-button,#go-home-button {
+    padding: 10px 20px;
+    font-size: 1.5vh;
+    width: 15vh;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#result-page{
+    height: 50vh;
+}
+#result-page h1{
+    color: rgb(74, 138, 249);
+}
+#start-again-button,#go-home-button{
+    width: 20vh;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 50px;
+
+}
